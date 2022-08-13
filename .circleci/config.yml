@@ -41,5 +41,6 @@ jobs:
           name: run lint
           command: |
             . venv/bin/activate
+            cd /home/ubuntu/environment/DevOps_Microservices/Lesson-3-Containerization
             make lint           
 
